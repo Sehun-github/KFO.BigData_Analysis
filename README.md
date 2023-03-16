@@ -8,5 +8,9 @@
 a link:
  - 이미지 테스트 : <a href='test.md'>test.md</a>
 
+1. URL : https://github.com/Sehun-github/python_daily_lecture/blob/main/test.md
+2. [URL](https://github.com/Sehun-github/python_daily_lecture/blob/main/test.md)
+
+
 # day2
 
