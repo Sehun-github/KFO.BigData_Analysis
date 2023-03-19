@@ -13,4 +13,4 @@ a link:
 
 
 # day2
-1. [파이썬 300제 문제 실습(과제)](https://github.com/Sehun-github/python_daily_lecture/blob/main/test.md)
+1. [파이썬 300제 문제 실습(과제)](임세훈_20230317_과제.ipynb)
