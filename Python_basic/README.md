@@ -12,5 +12,6 @@ a link:
 2. [URL](https://github.com/Sehun-github/python_daily_lecture/blob/main/test.md)     // url로 이미지 불러오기
 
 
-# day2
-1. [파이썬 300제 문제 실습(과제)](20230317_과제.ipynb)
+# 과제
+1. [파이썬 300제 문제 실습](20230317_과제.ipynb) (2023/03/17)
+2. [정보 올림피아드 문제](20230320_과제.ipynb) (2023/03/20)
