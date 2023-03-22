@@ -6,6 +6,7 @@
 
 ### day2
 ### day3
+* [Python_Syntax_01](Python_Syntax_01.ipynb)
 ### day4
 * [Python_Syntax_02](Python_Syntax_02.ipynb)
 * [Sequence](Sequence.ipynb)
