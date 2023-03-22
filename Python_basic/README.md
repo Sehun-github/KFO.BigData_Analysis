@@ -1,10 +1,11 @@
 # 파이썬 강의 정리
 
- ## 1. 강의 과정
+## 1. 강의 과정
 
-   ### day1
-
+### day1
+* [Build_Conda](Build_Conda.ipynb)
 ### day2
+* [JupyterNotebook](JupyterNotebook.ipynb)
 ### day3
 * [Python_Syntax_01](Python_Syntax_01.ipynb)
 ### day4
