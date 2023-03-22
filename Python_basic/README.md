@@ -22,6 +22,7 @@ a link:
 * [Pandas_DataFrame](Pandas_DataFrame.ipynb)
 
 ### day6
+* [DataFrame_Pratice](DataFrame_Pratice.ipynb)
 ### day7
 
 
