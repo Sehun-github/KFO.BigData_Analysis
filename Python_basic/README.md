@@ -7,6 +7,10 @@
 ### day2
 ### day3
 ### day4
+* [Python_Syntax_02](Python_Syntax_02.ipynb)
+* [Sequence](Sequence.ipynb)
+* [Strings_Usages](Strings_Usages.ipynb)
+* [Function](Function.ipynb)
 ### day5
 * [Class](Class.ipynb)
 * [Numpy](Numpy.ipynb)
