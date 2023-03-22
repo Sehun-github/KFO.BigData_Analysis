@@ -2,7 +2,7 @@
 
 ## 강의 과정
 
-1. [jupyter notebook 강의실습](1-01JupyterNotebook.ipynb)
+1. [jupyter notebook 개념 및 실습](1-01JupyterNotebook.ipynb)
 2. 이미지 테스트 : [test.md](test.md)       // 파일내 이미지 불러오기
 
 a link:
