@@ -3,7 +3,7 @@
 ## 1. 강의 과정
 
 ### day1
-* [Build_Conda](Build_Conda.ipynb)
+* [Python_Intro](Python_Intro.ipynb)
 ### day2
 * [JupyterNotebook](JupyterNotebook.ipynb)
 ### day3
