@@ -1,6 +1,6 @@
 # 파이썬 강의 정리
 
-# day1
+## 강의 과정
 
 1. [jupyter notebook 강의실습](1-01JupyterNotebook.ipynb)
 2. 이미지 테스트 : [test.md](test.md)       // 파일내 이미지 불러오기
@@ -12,7 +12,7 @@ a link:
 2. [URL](https://github.com/Sehun-github/python_daily_lecture/blob/main/test.md)     // url로 이미지 불러오기
 
 
-# 과제
+## 과제
 1. [파이썬 300제 문제 실습](20230317_과제.ipynb) (2023/03/17)
 2. [정보 올림피아드 문제](20230320_과제.ipynb) (2023/03/20)
 3. [한 권으로 끝내는 <판다스 노트>](20230321_과제.ipynb) (2023/03/21)
