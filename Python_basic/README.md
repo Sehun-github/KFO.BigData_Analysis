@@ -2,7 +2,7 @@
 
  ## 1. 강의 과정
 
-### day1
+   ### day1
 
 ### day2
 ### day3
@@ -15,6 +15,15 @@
 
 ### day6
 * [DataFrame_Pratice](DataFrame_Pratice.ipynb)
+* [External_Data](External_Data.ipynb)
+
+> 시각화
+> - [Matplotlib_Intro](Matplotlib_Intro.ipynb)
+> - [Matplotlib_01](Matplotlib_01.ipynb)
+> - [Seaborn](Seaborn.ipynb)
+> - [Plotly](Plotly.ipynb)
+
+
 ### day7
 
 
