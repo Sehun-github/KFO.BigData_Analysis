@@ -16,6 +16,10 @@ a link:
 ### day3
 ### day4
 ### day5
+* [Class](Class.ipynb)
+* [Numpy](Numpy.ipynb)
+* [Pandas_Series](Pandas_Series.ipynb)
+* [Pandas_DataFrame](Pandas_DataFrame.ipynb)
 
 ### day6
 ### day7
