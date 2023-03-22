@@ -2,6 +2,7 @@
 
 ## 강의 과정
 
+### day1
 1. [jupyter notebook 개념 및 실습](1-01JupyterNotebook.ipynb)
 2. 이미지 테스트 : [test.md](test.md)       // 파일내 이미지 불러오기
 
@@ -10,6 +11,14 @@ a link:
 
 1. URL : https://github.com/Sehun-github/python_daily_lecture/blob/main/test.md
 2. [URL](https://github.com/Sehun-github/python_daily_lecture/blob/main/test.md)     // url로 이미지 불러오기
+
+### day2
+### day3
+### day4
+### day5
+
+### day6
+### day7
 
 
 ## 과제
