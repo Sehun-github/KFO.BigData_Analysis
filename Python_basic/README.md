@@ -33,6 +33,8 @@
 * [Data_Crawling_intro](code/Data_Crawling_intro.ipynb)
 * [Data_Crawling_01](code/Data_Crawling_01.ipynb)
 * [Data_Crawling_02](code/Data_Crawling_02.ipynb)
+* [Selenium](code/Selenium.ipynb)
+* [Ex) YoutubeRank](code/ex_YoutubeRank.ipynb)
 
 
 ## 2. 과제
