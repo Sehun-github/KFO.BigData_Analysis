@@ -29,8 +29,10 @@
 > - [Seaborn](code/Seaborn.ipynb)
 > - [Plotly](code/Plotly.ipynb)
 
-
 ### day7
+* [Data_Crawling_intro](code/Data_Crawling_intro.ipynb)
+* [Data_Crawling_01](code/Data_Crawling_01.ipynb)
+* [Data_Crawling_02](code/Data_Crawling_02.ipynb)
 
 
 ## 2. 과제
@@ -39,3 +41,4 @@
 3. [한 권으로 끝내는 <판다스 노트>](code/20230321_과제.ipynb) (2023/03/21)
 4. [Pandas & Dataframe 01](code/20230322_과제1.ipynb) (2023/03/22)
 5. [Pandas & Dataframe 02](code/20230322_과제2.ipynb) (2023/03/22)
+6. [Data Crawling](code/20230323.ipynb) (2023/03/23)
