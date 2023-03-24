@@ -20,7 +20,7 @@
 	    - 숫자, 문자, 날짜, 수식
   ```
 ## day1
-* 표 개체
+* ![표 개체](https://github.com/Sehun-github/KFO.BigData_Analysis/edit/main/Excel/data/표개체 이해.xlsx) 
   - 범위 -> 표  (ctrl+T, 삽입에서 표)
   - 표 -> 범위 (표도구 메뉴에서 범위로 변환) 
 
