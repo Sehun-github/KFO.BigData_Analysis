@@ -1,4 +1,4 @@
-# Open Data Visualization
+> # Open Data Visualization
 ### day1
 * [Matplotlib 그래프 그리기 01](code/Graph_01.ipynb)
 * [Matplotlib 그래프 그리기 02](code/Graph_02.ipynb)
