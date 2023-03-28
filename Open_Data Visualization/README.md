@@ -12,6 +12,11 @@
 * [Multiple_Graphs_03](code/Multiple_Graphs_03.ipynb)
 * [Multiple_Graphs_04](code/Multiple_Graphs_04.ipynb)
 ### day3
+ #### 데이터 관계 표현 그래프
+* [막대 그래프](code/Bar_Graph.ipynb)
+* [Scatter 그래프](code/Scatter_Graph.ipynb)
+* [히트맵](code/HitMap.ipynb)
+
 ### day4
 ### day5
 ### day6
