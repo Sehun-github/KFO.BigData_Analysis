@@ -13,10 +13,14 @@
 * [Multiple_Graphs_04](code/Multiple_Graphs_04.ipynb)
 ### day3
  #### 데이터 관계 표현 그래프
-* [막대 그래프](code/Bar_Graph.ipynb)
-* [Scatter 그래프](code/Scatter_Graph.ipynb)
-* [히트맵](code/HitMap.ipynb)
-
+> * [막대 그래프](code/Bar_Graph.ipynb)
+> * [Scatter 그래프](code/Scatter_Graph.ipynb)
+> * [히트맵](code/HitMap.ipynb)
+ #### 데이터 통계값 표현 그래프
+> * [박스플롯](code/Boxplot.ipynb)
+> * [바이올린플롯](code/Violinplot.ipynb)
+ #### 데이터 비율 그래프
+> * [파이차트](code/Pie.ipynb)
 ### day4
 ### day5
 ### day6
