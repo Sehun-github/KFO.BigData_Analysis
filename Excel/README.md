@@ -121,3 +121,13 @@ dim 변수 as 타입
    • .select
    • 조사식창(중단점 필수)
 ```
+* [VBA 조건문 & 반복문](data/평가표.xlsm)
+```
+ * 실무버전 업그레이드
+  1. 매크로 버튼으로 빼기
+  2. 마지막행을 변수로 받아 활용
+  3. 전 데이터 삭제
+  4. 화면 업데이트 멈추기 Application.ScreenUpdating = False/True
+  5. 처리속도 체크 - Timer 메서드
+```
+* [VBA 구구단](data/구구단.xlsm) 
