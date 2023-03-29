@@ -91,4 +91,4 @@
 	모듈 만들기 : 프로젝트 마우스 오른쪽 -> 삽입 - 모듈
 ```
 
-* [VBA_Range&Method](data/Range_개체.xlsm) 
+* [VBA_Range 기본&메서드&속성](data/Range_개체.xlsm) 
