@@ -131,3 +131,12 @@ dim 변수 as 타입
   5. 처리속도 체크 - Timer 메서드
 ```
 * [VBA 구구단](data/구구단.xlsm) 
+
+## day5
+* [VBA 구구단2](data/구구단2.xlsm)
+```
+- mod
+ex) 4 mod 2 = 0
+```
+* [VBA 기본색상표](data/VBA기본색상표.xlsm)
+
