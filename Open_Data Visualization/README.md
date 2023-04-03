@@ -31,10 +31,12 @@
 * [그래프내 Text 삽입](code/Text.ipynb)
 * [2중 y축 그래프 그리기](code/Double_y-axis.ipynb)
 
-
-
+ #### Seaborn을 통한 시각화
+> * [Seaborn - 막대그래프](code/Seaborn_Barplot.ipynb)
+> * [Seaborn - 산점도](code/Seaborn_Scatter.ipynb)
+> * [Seaborn - 선그래프](code/Seaborn_lineplot.ipynb)
+> * [Seaborn - 데이터분포](code/Seaborn_Distribution.ipynb)
 
 ### day5
 ### day6
-### day7
 
