@@ -1,7 +1,7 @@
-#  태블로 시각화 강의
+> # Tableau를 통한 시각화
 
 ## day1
-* ![Tableau Test](https://public.tableau.com/app/profile/.67392977/viz/Tableau_01_16805116488510/1?publish=yes)
+* [Tableau Test](https://public.tableau.com/app/profile/.67392977/viz/Tableau_01_16805116488510/1?publish=yes)
 ```
 Abc - 범주
 # - 문자
