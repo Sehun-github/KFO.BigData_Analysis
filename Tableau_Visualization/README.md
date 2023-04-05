@@ -28,4 +28,4 @@ Green Pills = 연속형
   - 예측 표시기 -> 특성
 ```
 ## day3
-* [Tableau - 미국 주별 보고서](https://public.tableau.com/app/profile/.67392977/viz/Test02_16805728199950/HRStatus)
+* [Tableau - 미국 주별 보고서](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Tableau_Visualization/data/미국주별보고서)
