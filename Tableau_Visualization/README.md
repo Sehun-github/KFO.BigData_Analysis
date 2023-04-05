@@ -29,3 +29,14 @@ Green Pills = 연속형
 ```
 ## day3
 * [Tableau - 미국 주별 보고서](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Tableau_Visualization/data/미국주별보고서.pptx)
+* [Tableau_LOD함수활용](https://public.tableau.com/app/profile/.67392977/viz/LOD_16806852637420/LOD)
+```
+ * 조인 : 시트 더블클릭 -> 내부조인, 왼쪽 조인, 오른쪽 조인, 외부 조인 선택
+ * 함수 : 기본함수, LOD함수
+  - 기본함수: Tableau에 내장된 함수
+  - 숫자/문자/날짜/유형변환/논리/집계/테이블 계산 총 7가지 자주 사용
+  - LOD함수: 세분화된 측정값을 계산하는 tableau 기능
+      - Fixed, Include, Exclude
+      - 쓰는 이유: 차원과 측정값이 함께 할 때 인사이트가 생기기 때문
+      - ex){ FIXED [Mem No],YEAR([Order Date]):SUM([매출액])}
+```
