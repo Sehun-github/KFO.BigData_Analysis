@@ -40,3 +40,25 @@ Green Pills = 연속형
       - 쓰는 이유: 차원과 측정값이 함께 할 때 인사이트가 생기기 때문
       - ex){ FIXED [Mem No],YEAR([Order Date]):SUM([매출액])}
 ```
+## day4
+* [Tableau_KPI카드, 하이라이트 테이블](https://public.tableau.com/app/profile/.67392977/viz/KPI_16807717937920/1_1)
+```
+ - 대시보드 Action : 대시보드 -> 동작 -> 필터 or 하이라이트
+ - 워크시트 Action : 워크시트 -> 동작 -> 필터 -> 이 시트 -> 동작 추가 -> 원본시트, 대상시트 현재 시트로 -> 필터-선택된 필드
+
+```
+* [Tableau_Graph01](https://public.tableau.com/app/profile/.67392977/viz/Tableau_Graph01/2)
+  - Bullet table
+  - Scatter plot
+  - Box Plot
+  - Histogram
+* [Tableau_Graph01](https://public.tableau.com/app/profile/.67392977/viz/Tableau_Graph02/3)
+  - Bump Chart
+  - Dumbbell Chart
+  - Stack-Bar 차트
+  - 폭포차트
+* [Tableau_Graph03](https://public.tableau.com/app/profile/.67392977/viz/Tableau_Graph03/AnimatedChart)
+  - Animated Chart
+
+* [Tableau_카페인과 칼로리가 낮은 음료 찾기](https://public.tableau.com/app/profile/.67392977/viz/_16807714583140/1)
+
