@@ -64,3 +64,5 @@ Green Pills = 연속형
 ## day5
 * [Tableau_카페 매장 시각화](https://public.tableau.com/app/profile/.67392977/viz/_16808402256430/1_1)
 * [Tableau_빅맥 지수 시각화](https://public.tableau.com/app/profile/.67392977/viz/_16808403196710/sheet2)
+* [Tableau_미세먼지 지역별,월별](https://public.tableau.com/app/profile/.67392977/viz/__16808548498800/_)
+
