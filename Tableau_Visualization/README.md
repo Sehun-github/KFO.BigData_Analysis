@@ -65,4 +65,10 @@ Green Pills = 연속형
 * [Tableau_카페 매장 시각화](https://public.tableau.com/app/profile/.67392977/viz/_16808402256430/1_1)
 * [Tableau_빅맥 지수 시각화](https://public.tableau.com/app/profile/.67392977/viz/_16808403196710/sheet2)
 * [Tableau_미세먼지 지역별,월별](https://public.tableau.com/app/profile/.67392977/viz/__16808548498800/_)
-
+* [Tableau_HR Resource](https://public.tableau.com/app/profile/.67392977/viz/HRResource_16808593139850/HRResource)
+```
+* 크롤링 방법
+ 1) listly
+ 2) 구글 스프레드 시트에서
+   =IMPORTFEED("https://news.google.co.kr/rss/search?q=임세훈","items",True,100)
+```
