@@ -72,3 +72,5 @@ Green Pills = 연속형
  2) 구글 스프레드 시트에서
    =IMPORTFEED("https://news.google.co.kr/rss/search?q=임세훈","items",True,100)
 ```
+## day6
+프로젝트1_광양시 문화시설 추가 제안서 (https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Tableau_Visualization/data/광양시문화시설제안서.pptx)
