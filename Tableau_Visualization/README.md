@@ -73,4 +73,8 @@ Green Pills = 연속형
    =IMPORTFEED("https://news.google.co.kr/rss/search?q=임세훈","items",True,100)
 ```
 ## day6
-프로젝트1_광양시 문화시설 추가 제안서 (https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Tableau_Visualization/data/광양시문화시설제안서.pptx)
+* [프로젝트1_광양시 문화시설 추가 제안서]https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Tableau_Visualization/data/광양시문화시설제안서.pptx)
+* [Tableau_시도별 문화시설](https://public.tableau.com/app/profile/.67392977/viz/_16811163270750/2)
+* [Tableau_전라남도 문화시설](https://public.tableau.com/app/profile/.67392977/viz/_16811164052430/3_1)
+* [Tableau_성별 연령대별 문화시설 관심도](https://public.tableau.com/app/profile/.67392977/viz/_16811162717990/1_1)
+* [Tableau_광양시 인구예측](https://public.tableau.com/app/profile/.67392977/viz/_16811161520780/1)
