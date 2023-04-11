@@ -78,3 +78,7 @@ Green Pills = 연속형
 * [Tableau_전라남도 문화시설](https://public.tableau.com/app/profile/.67392977/viz/_16811164052430/3_1)
 * [Tableau_성별 연령대별 문화시설 관심도](https://public.tableau.com/app/profile/.67392977/viz/_16811162717990/1_1)
 * [Tableau_광양시 인구예측](https://public.tableau.com/app/profile/.67392977/viz/_16811161520780/1)
+
+* [프로젝트2_빈곤층을 위한 정책방향](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Tableau_Visualization/data/빈곤층을위한정책방향.pptx)
+* [Tableau_빈곤층을 위한 정책방향_01](https://public.tableau.com/app/profile/.67392977/viz/_01_16812271432620/1)
+* [Tableau_빈곤층을 위한 정책방향_02](https://public.tableau.com/app/profile/.67392977/viz/_02_16812272091250/5)
