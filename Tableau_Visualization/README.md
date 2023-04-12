@@ -83,3 +83,8 @@ Green Pills = 연속형
 * [프로젝트2_빈곤층을 위한 정책방향](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Tableau_Visualization/data/빈곤층을위한정책방향.pptx)
 * [Tableau_빈곤층을 위한 정책방향_01](https://public.tableau.com/app/profile/.67392977/viz/_01_16812271432620/1)
 * [Tableau_빈곤층을 위한 정책방향_02](https://public.tableau.com/app/profile/.67392977/viz/_02_16812272091250/5)
+
+## day8
+* [프로젝트2_광진구 주차 해결방안](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Tableau_Visualization/data/광진구_주차_해결_방안.pptx)
+* [Tableau_광진구 주차 해결방안_01](https://public.tableau.com/app/profile/.67392977/viz/_01_16813005416560/1)
+* [Tableau_광진구 주차 해결방안_02](https://public.tableau.com/app/profile/.67392977/viz/_02_16813005634120/1_1)
