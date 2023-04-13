@@ -11,7 +11,7 @@
 
 ----------------------------------------------------
 
-* <b>[Tableau Visualization](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Tableau_Visualization )</b> (2023/04/03 ~ 2023/04/12)
+* <b>[Tableau Visualization](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Tableau_Visualization)</b> (2023/04/03 ~ 2023/04/12)
 ----------------------------------------------------
 
-* <b>[RPA](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Tableau_Visualization )</b> (2023/04/13 ~ )
+* <b>[RPA](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA)</b> (2023/04/13 ~ )
