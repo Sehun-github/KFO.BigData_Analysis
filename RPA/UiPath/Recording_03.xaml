@@ -52,6 +52,8 @@
       <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Flowchart sap:VirtualizedContainerService.HintSize="634,637.3333333333334" sap2010:WorkflowViewState.IdRef="Flowchart_1">
@@ -59,26 +61,27 @@
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
-        <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
+        <av:Point x:Key="ShapeLocation">260,2.6666666666666643</av:Point>
         <av:Size x:Key="ShapeSize">60,74.66666666666667</av:Size>
-        <av:PointCollection x:Key="ConnectorLocation">300,77.16666666666667 300,160 200,160</av:PointCollection>
+        <av:PointCollection x:Key="ConnectorLocation">320,40 350,40 350,50 390,50</av:PointCollection>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <Flowchart.StartNode>
       <x:Reference>__ReferenceID1</x:Reference>
     </Flowchart.StartNode>
-    <FlowStep x:Name="__ReferenceID1">
+    <FlowStep>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <av:Point x:Key="ShapeLocation">0,117.66666666666666</av:Point>
-          <av:Size x:Key="ShapeSize">200,84.66666666666667</av:Size>
-          <av:PointCollection x:Key="ConnectorLocation">100,202.33333333333331 100,227.66666666666669</av:PointCollection>
+          <av:Size x:Key="ShapeSize">200,146.66666666666666</av:Size>
+          <av:PointCollection x:Key="ConnectorLocation">100,264.3333333333333 100,287.6666666666667</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="화면 키우기" sap:VirtualizedContainerService.HintSize="200,84.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence sap2010:Annotation.AnnotationText="https://acme-test.uipath.com/에 화면이 있어야함" DisplayName="화면 키우기" sap:VirtualizedContainerService.HintSize="200,146.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_2">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe ACME'" sap:VirtualizedContainerService.HintSize="484,283.3333333333333" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="0b010a73de930be3429faf0b809b2ef6" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;">
@@ -103,7 +106,7 @@
         <FlowStep x:Name="__ReferenceID0">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
-              <av:Point x:Key="ShapeLocation">0,227.66666666666669</av:Point>
+              <av:Point x:Key="ShapeLocation">0,287.6666666666667</av:Point>
               <av:Size x:Key="ShapeSize">200,84.66666666666667</av:Size>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
@@ -161,6 +164,178 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
                 <ui:CloseTab Browser="{x:Null}" DisplayName="Close Tab" sap:VirtualizedContainerService.HintSize="388,25.333333333333332" sap2010:WorkflowViewState.IdRef="CloseTab_1" />
+              </Sequence>
+            </ActivityAction>
+          </ui:BrowserScope.Body>
+        </ui:BrowserScope>
+      </Sequence>
+    </FlowStep>
+    <FlowStep x:Name="__ReferenceID1">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <av:Point x:Key="ShapeLocation">390,7.666666666666664</av:Point>
+          <av:Size x:Key="ShapeSize">200,84.66666666666667</av:Size>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence DisplayName="파일 다운로드" sap:VirtualizedContainerService.HintSize="546,1800" sap2010:WorkflowViewState.IdRef="Sequence_8">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="484,814" sap2010:WorkflowViewState.IdRef="OpenBrowser_2" Url="https://www.openfiscaldata.go.kr/op/ko/index">
+          <ui:OpenBrowser.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="450,710" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="388,25.333333333333332" sap2010:WorkflowViewState.IdRef="MaximizeWindow_3" />
+                <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="388,92" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  javascript:void(0);'" sap:VirtualizedContainerService.HintSize="388,107.33333333333333" sap2010:WorkflowViewState.IdRef="Click_7" KeyModifiers="None" MouseButton="BTN_LEFT">
+                  <ui:Click.CursorPosition>
+                    <ui:CursorPosition Position="Center">
+                      <ui:CursorPosition.OffsetX>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetX>
+                      <ui:CursorPosition.OffsetY>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetY>
+                    </ui:CursorPosition>
+                  </ui:Click.CursorPosition>
+                  <ui:Click.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c8a45b35-e5ce-434a-8314-b87e6f8cc9ef" InformativeScreenshot="16a028ac7a84699997470aba81e45849" Selector="&lt;html app='chrome.exe' title='열린재정' /&gt;&lt;webctrl aaname='전체메뉴' parentid='header' tag='A' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:Click.Target>
+                </ui:Click>
+                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  /op/ko/es/UOPKOESA01'" sap:VirtualizedContainerService.HintSize="388,107.33333333333333" sap2010:WorkflowViewState.IdRef="Click_8" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                  <ui:Click.CursorPosition>
+                    <ui:CursorPosition Position="Center">
+                      <ui:CursorPosition.OffsetX>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetX>
+                      <ui:CursorPosition.OffsetY>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetY>
+                    </ui:CursorPosition>
+                  </ui:Click.CursorPosition>
+                  <ui:Click.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f866461e-34c5-43d4-8250-47674b7ffc7d" InformativeScreenshot="71c53ef9507c5e04855b03ec03ad906e" Selector="&lt;html app='chrome.exe' title='열린재정' /&gt;&lt;webctrl aaname='한국은행 100대 지표' parentid='allMenu' tag='A' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:Click.Target>
+                </ui:Click>
+                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  https://ecos.bok.or....'" sap:VirtualizedContainerService.HintSize="388,107.33333333333333" sap2010:WorkflowViewState.IdRef="Click_9" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                  <ui:Click.CursorPosition>
+                    <ui:CursorPosition Position="Center">
+                      <ui:CursorPosition.OffsetX>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetX>
+                      <ui:CursorPosition.OffsetY>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetY>
+                    </ui:CursorPosition>
+                  </ui:Click.CursorPosition>
+                  <ui:Click.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="400b2b73-1e83-45a3-83c9-01f6e1e0e80a" InformativeScreenshot="de2290031ab9d20365744f2eb83ed190" Selector="&lt;html app='chrome.exe' title='열린재정 | 재정연구분석 | 경제통계지표 | 한국은행 100대 지표' /&gt;&lt;webctrl parentid='mainSection' tag='A' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:Click.Target>
+                </ui:Click>
+              </Sequence>
+            </ActivityAction>
+          </ui:OpenBrowser.Body>
+        </ui:OpenBrowser>
+        <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'chrome.exe  한국은행경제통계시스템'" sap:VirtualizedContainerService.HintSize="484,835.3333333333334" sap2010:WorkflowViewState.IdRef="BrowserScope_4" InformativeScreenshot="78f0012be4dad94cde1232e43d33204c" Selector="&lt;html app='chrome.exe' title='한국은행경제통계시스템' /&gt;">
+          <ui:BrowserScope.Body>
+            <ActivityAction x:TypeArguments="x:Object">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="450,688" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="388,107.33333333333333" sap2010:WorkflowViewState.IdRef="Click_10" KeyModifiers="None" MouseButton="BTN_LEFT">
+                  <ui:Click.CursorPosition>
+                    <ui:CursorPosition Position="Center">
+                      <ui:CursorPosition.OffsetX>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetX>
+                      <ui:CursorPosition.OffsetY>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetY>
+                    </ui:CursorPosition>
+                  </ui:Click.CursorPosition>
+                  <ui:Click.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6dc59883-1594-4775-89a0-1829b52a37c5" InformativeScreenshot="876c0879f923e6418bf7ef42694dea35" Selector="&lt;webctrl aaname='Excel로 다운로드' tag='BUTTON' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:Click.Target>
+                </ui:Click>
+                <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Into 'Edit'" EmptyField="True" sap:VirtualizedContainerService.HintSize="388,135.33333333333334" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="C:\RPA_Guidebook\Session4_UI 자동화 구성하기\Result\100대통계지표.xlsx">
+                  <ui:TypeInto.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cc1b2fe1-af17-4319-a441-3f29ff63861b" InformativeScreenshot="2eebaf3e802e352e5a17e4e0551d2373" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='다른 이름으로 저장' /&gt;&lt;wnd aaname='탐색 창' cls='DirectUIHWND' /&gt;&lt;wnd aaname='파일 이름:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:TypeInto.Target>
+                </ui:TypeInto>
+                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="388,107.33333333333333" sap2010:WorkflowViewState.IdRef="Click_11" KeyModifiers="None" MouseButton="BTN_LEFT">
+                  <ui:Click.CursorPosition>
+                    <ui:CursorPosition Position="Center">
+                      <ui:CursorPosition.OffsetX>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetX>
+                      <ui:CursorPosition.OffsetY>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetY>
+                    </ui:CursorPosition>
+                  </ui:Click.CursorPosition>
+                  <ui:Click.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8858d791-30cb-406f-a5d7-abd38d1386e9" InformativeScreenshot="283ba2cd42ad55e9f31acae143aae853" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='다른 이름으로 저장' /&gt;&lt;wnd ctrlid='1' title='저장(&amp;amp;S)' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:Click.Target>
+                </ui:Click>
+                <ui:CloseWindow Selector="{x:Null}" TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Window 'chrome.exe 열린재정'" sap:VirtualizedContainerService.HintSize="388,107.33333333333333" sap2010:WorkflowViewState.IdRef="CloseWindow_1" InformativeScreenshot="ca0c46af93b451345430a01da547f2f2" WaitForReady="INTERACTIVE" />
               </Sequence>
             </ActivityAction>
           </ui:BrowserScope.Body>
