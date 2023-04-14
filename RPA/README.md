@@ -17,7 +17,7 @@
 * [UIPath_반복문](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/For_Each.xaml)
   - Repeat Number Of Times : 반복횟수 적힌 숫자만큼 반복
 
-* [UIPath_레코딩 - 웹 로그인 자동화](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Recording_01.xaml)
+* [UIPath_레코딩_01 - 웹 로그인 자동화](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Recording_01.xaml)
 ```
 * 레코딩
   OpenBrowser -> Maximize Window -> Delay  -> Type Into -> Get Password -> Type Into -> Click
@@ -26,3 +26,17 @@
     - Type Into: 이메일 및 비밀번호 치기 // 빈필드, 입력전 클릭 활성화
     - Get Password: 비밀번호 감추기
 ```
+## day2
+* [UIPath_레코딩_02 - 웹 텍스트&테이블 가져오기](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Recording_01.xaml)
+```
+* 변수에 띄어쓰기 금지
+Get Text: 텍스트 추출, 복사
+
+* 데이터 테이블 가져오기: 리본메뉴 -> 스크래핑 -> 데이터 스크래핑
+  Excel Application Scope -> Write Range
+- Excel Application Scope: 엑셀 위치 확인
+- Write Range: 엑셀에 데이터 넣을때 사용
+```
+* [UIPath_레코딩_03 - 웹 기타 액티비티](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Recording_01.xaml)
+  - Navigate To: URL 이동
+  - Close Tab: 페이지 닫기
