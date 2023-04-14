@@ -27,7 +27,7 @@
     - Get Password: 비밀번호 감추기
 ```
 ## day2
-* [UIPath_레코딩_02 - 웹 텍스트&테이블 가져오기](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Recording_01.xaml)
+* [UIPath_레코딩_02 - 웹 텍스트&테이블 가져오기](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Recording_02.xaml)
 ```
 * 변수에 띄어쓰기 금지
 Get Text: 텍스트 추출, 복사
@@ -37,6 +37,6 @@ Get Text: 텍스트 추출, 복사
 - Excel Application Scope: 엑셀 위치 확인
 - Write Range: 엑셀에 데이터 넣을때 사용
 ```
-* [UIPath_레코딩_03 - 웹 기타 액티비티](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Recording_01.xaml)
+* [UIPath_레코딩_03 - 웹 기타 액티비티](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Recording_03.xaml)
   - Navigate To: URL 이동
   - Close Tab: 페이지 닫기
