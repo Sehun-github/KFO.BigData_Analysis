@@ -40,3 +40,9 @@ Get Text: 텍스트 추출, 복사
 * [UIPath_레코딩_03 - 웹 기타 액티비티](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Recording_03.xaml)
   - Navigate To: URL 이동
   - Close Tab: 페이지 닫기
+
+* [UIPath 응용실습](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Pratice.xaml)
+```
+  - 팝업창, 스크롤 무시: 클릭 시뮬레이터->True
+  - Ctrl + K -> 변수 생성 및 바로 사용 가능
+ ```
