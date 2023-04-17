@@ -46,13 +46,14 @@ Get Text: 텍스트 추출, 복사
   - 팝업창, 스크롤 무시: 클릭 시뮬레이터->True
   - Ctrl + K -> 변수 생성 및 바로 사용 가능
  ```
- 
+ ## day3
+
  * [UIPath 데이터추출](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/데이터추출.xaml)
  ```
  - cint(텍스트),cdbl(텍스트): String -> int or double
  - 숫자.ToString : 숫자 -> String
  ```
- * [UIPath 데이터추출](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Selector_01.xaml)
+ * [UIPath 셀렉터 이론](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Selector_01.xaml)
  ```
   - Selector: 속성 -> 타겟 -> 선택기
 * 와일드 카드 
