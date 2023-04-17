@@ -46,3 +46,24 @@ Get Text: 텍스트 추출, 복사
   - 팝업창, 스크롤 무시: 클릭 시뮬레이터->True
   - Ctrl + K -> 변수 생성 및 바로 사용 가능
  ```
+ 
+ * [UIPath 데이터추출](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/데이터추출.xaml)
+ ```
+ - cint(텍스트),cdbl(텍스트): String -> int or double
+ - 숫자.ToString : 숫자 -> String
+ ```
+ * [UIPath 데이터추출](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Selector_01.xaml)
+ ```
+  - Selector: 속성 -> 타겟 -> 선택기
+* 와일드 카드 
+  -> ?(문자 1개를 대체), *(문자 여러개를 대체)
+
+ * 텍스트 함수
+  - Contains: 특정문자포함
+  - StartsWith/EndsWith: 처음 또는 끝에 특정문자를 포함하고 있는지 검색
+  - Replace: 특정문자 대체
+  - Substring: 특정문자의 특정부분 추출
+  - Trim: 특정문자의 양쪽 공백제거
+  - ToUpper/ToLower: 특정문자를 전부 대문자 또는 소문자로 바꾸고 싶을때
+  - Split: 특정문자에서 문자를 빠르게 추출
+ ```
