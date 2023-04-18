@@ -62,7 +62,7 @@ Get Text: 텍스트 추출, 복사
  
  ## day4
  
- * [UIPath_셀렉터 이론](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Function_Text.xaml)
+ * [UIPath_텍스트 함수](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Function_Text.xaml)
  ```
   * 텍스트 함수
   - Contains: 특정문자포함
@@ -73,14 +73,14 @@ Get Text: 텍스트 추출, 복사
   - ToUpper/ToLower: 특정문자를 전부 대문자 또는 소문자로 바꾸고 싶을때
   - Split: 특정문자에서 문자를 빠르게 추출
 ```
- * [UIPath_셀렉터 이론](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Date_Time.xaml)
+ * [UIPath_날짜&시간](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Date_Time.xaml)
 ```
 Environment.NewLine -> 줄 공백
 Now -> 현재시간
 Now.ToString("yyyy년 MM월 dd일 hh:mm:ss")
 ```
 
- * [UIPath_셀렉터 이론](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Array_List_Dic.xaml)
+ * [UIPath_배열, 리스트, 딕셔너리](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Array_List_Dic.xaml)
 ```
 배열: {}에 값 넣기
 리스트: 크기가 유동적
