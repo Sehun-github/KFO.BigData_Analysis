@@ -58,8 +58,13 @@ Get Text: 텍스트 추출, 복사
   - Selector: 속성 -> 타겟 -> 선택기
 * 와일드 카드 
   -> ?(문자 1개를 대체), *(문자 여러개를 대체)
-
- * 텍스트 함수
+ ```
+ 
+ ## day4
+ 
+ * [UIPath_셀렉터 이론](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Function_Text.xaml)
+ ```
+  * 텍스트 함수
   - Contains: 특정문자포함
   - StartsWith/EndsWith: 처음 또는 끝에 특정문자를 포함하고 있는지 검색
   - Replace: 특정문자 대체
@@ -67,4 +72,18 @@ Get Text: 텍스트 추출, 복사
   - Trim: 특정문자의 양쪽 공백제거
   - ToUpper/ToLower: 특정문자를 전부 대문자 또는 소문자로 바꾸고 싶을때
   - Split: 특정문자에서 문자를 빠르게 추출
- ```
+```
+ * [UIPath_셀렉터 이론](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Date_Time.xaml)
+```
+Environment.NewLine -> 줄 공백
+Now -> 현재시간
+Now.ToString("yyyy년 MM월 dd일 hh:mm:ss")
+```
+
+ * [UIPath_셀렉터 이론](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Array_List_Dic.xaml)
+```
+배열: {}에 값 넣기
+리스트: 크기가 유동적
+  - assign에 New List(Of String) 초기화를 시켜야함 -> Append Item to List
+딕셔너리: assign에 New Dictionary(Of String, String) 초기화를 시켜야함 -> assign으로 내용 추가
+```
