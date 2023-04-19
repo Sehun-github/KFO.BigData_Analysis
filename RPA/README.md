@@ -87,3 +87,6 @@ Now.ToString("yyyy년 MM월 dd일 hh:mm:ss")
   - assign에 New List(Of String) 초기화를 시켜야함 -> Append Item to List
 딕셔너리: assign에 New Dictionary(Of String, String) 초기화를 시켜야함 -> assign으로 내용 추가
 ```
+
+## day5
+* [UIPath_엑셀&데이터 테이블](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Excel,DataTable.xaml.xaml)
