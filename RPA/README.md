@@ -90,3 +90,15 @@ Now.ToString("yyyy년 MM월 dd일 hh:mm:ss")
 
 ## day5
 * [UIPath_엑셀&데이터 테이블](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Excel,DataTable.xaml.xaml)
+```
+ 엑셀 읽기
+ * Read Range
+  - 엑셀 프로그램이 설치 되어있을 떄 사용가능
+  - DT 형태로 엑셀을 읽어온다
+ * Read Range Workbook
+  - 엑셀 프로그램이 깔려있지 않아도 사용가능
+  - DT형태로 엑셀을 읽어온다
+
+ DT.Rows(0).item(0).ToString = DT.Rows(0).item("컬럼명").ToString도 가능
+ DT의 첫번째줄 첫번째행의 데이터를 가져온다
+```
