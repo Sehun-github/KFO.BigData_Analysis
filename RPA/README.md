@@ -89,7 +89,7 @@ Now.ToString("yyyy년 MM월 dd일 hh:mm:ss")
 ```
 
 ## day5
-* [UIPath_엑셀&데이터 테이블](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Excel,DataTable.xaml.xaml)
+* [UIPath_엑셀&데이터 테이블](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Excel,DataTable.xaml)
 ```
  엑셀 읽기
  * Read Range
@@ -101,4 +101,21 @@ Now.ToString("yyyy년 MM월 dd일 hh:mm:ss")
 
  DT.Rows(0).item(0).ToString = DT.Rows(0).item("컬럼명").ToString도 가능
  DT의 첫번째줄 첫번째행의 데이터를 가져온다
+```
+
+## day6
+* [UIPath_예외처리](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Excel,DataTable.xaml)
+```
+예외처리
+FIND, EXISTS 액티비티
+
+* Find Element - 있으면 그냥 넘어감, 없으면 오류 
+ - Try/Catch와 같이 쓰임
+
+* Element Exists - 해당 버튼이 있으면 True, 없으면 False, 
+ - if문, Flow Decision과 같이 쓰임
+
+* Retry Scope
+액션: Click
+조건: Element Exists - 출력속성에 변수X, 비어 있을 경우 액션에서 오류발생하면 재시도 수행
 ```
