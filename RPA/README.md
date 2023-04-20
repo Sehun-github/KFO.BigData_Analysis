@@ -104,7 +104,7 @@ Now.ToString("yyyy년 MM월 dd일 hh:mm:ss")
 ```
 
 ## day6
-* [UIPath_예외처리](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Excel,DataTable.xaml)
+* [UIPath_예외처리](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Exception.xaml)
 ```
 예외처리
 FIND, EXISTS 액티비티
