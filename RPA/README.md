@@ -119,3 +119,5 @@ FIND, EXISTS 액티비티
 액션: Click
 조건: Element Exists - 출력속성에 변수X, 비어 있을 경우 액션에서 오류발생하면 재시도 수행
 ```
+## day7
+* [UIPath_실전문제](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/실전문제.xaml)
