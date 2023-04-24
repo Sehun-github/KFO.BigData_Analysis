@@ -121,3 +121,27 @@ FIND, EXISTS 액티비티
 ```
 ## day7
 * [UIPath_실전문제](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/실전문제.xaml)
+
+## day8
+* [UIPath_인보크_워크플로우](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/실전문제.xaml)
+```
+* 출력: Sub -> Main
+ - Main 시퀀스에서 받아올 변수를 만들기 -> 인수 가져오기 -> 출력
+ - Name -> Value에 담는다고 이해하면 편함
+
+
+* 입력: Main -> Sub
+ - Main 시퀀스에서 받아올 변수를 만들기 -> 인수 가져오기 -> 입력
+ - Value -> Name에 담는다고 이해하면 편함
+```
+* [UIPath_인보크_네이버 환율정보추출](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/실전문제.xaml)
+
+* [UIPath_Config](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/실전문제.xaml)
+```
+- config: 엑셀파일에 저장해놓고 가져와서 사용
+- Log Message: 로그를 남기고 기록한다.
+- 확장성: Invoke Workflow
+
+* String.IsNullOrWhiteSpace("데이터")
+데이터 값이 null인지 아닌지 확인하는것 // 비어있으면 True
+```
