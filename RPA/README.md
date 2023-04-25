@@ -147,7 +147,8 @@ FIND, EXISTS 액티비티
 ```
 
 ## day9
-* [UIPath_인보크_ACME로그인](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Invoke_네이버환율추출)
+* [UIPath_ACME로그인_Config](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/ACME로그인_Config)
+* [UIPath_윈도우크리덴션](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/윈도우크리덴션)
 ```
 * Windows 자격증명 관리를 통해 Config에 등록된 계정 관리
  - 제어판 -> 사용자계정 -> 자격증명 관리자 -> windows 자격증명 -> 일반자격증명
@@ -156,7 +157,7 @@ FIND, EXISTS 액티비티
 * SecureString -> String
  - new System.Net.NetworkCredential(string.Empty, "데이터").Password
 ```
-* [UIPath_실습문제_매매기준율](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Invoke_네이버환율추출)
+* [UIPath_실습문제_환율추출](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/실습문제_환율추출)
 ```
 * Lookup Data Table
  - 데이터 테이블: 테이블이름
