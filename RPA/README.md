@@ -145,3 +145,24 @@ FIND, EXISTS 액티비티
 * String.IsNullOrWhiteSpace("데이터")
 데이터 값이 null인지 아닌지 확인하는것 // 비어있으면 True
 ```
+
+## day9
+* [UIPath_인보크_ACME로그인](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Invoke_네이버환율추출)
+```
+* Windows 자격증명 관리를 통해 Config에 등록된 계정 관리
+ - 제어판 -> 사용자계정 -> 자격증명 관리자 -> windows 자격증명 -> 일반자격증명
+ - UiPath에서 패키지 다운 -> 리본메뉴에서 패키지 관리 -> 모든 패키지 -> credential
+
+* SecureString -> String
+ - new System.Net.NetworkCredential(string.Empty, "데이터").Password
+```
+* [UIPath_실습문제_매매기준율](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Invoke_네이버환율추출)
+```
+* Lookup Data Table
+ - 데이터 테이블: 테이블이름
+ - 조회값: "미국"
+ - 조회열 -> 열이름: "국가명"
+ - 출력 -> 셀값: 출력변수
+ - 타겟열 -> 열이름: "수출액"
+
+```
