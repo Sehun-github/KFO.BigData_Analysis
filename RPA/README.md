@@ -166,3 +166,20 @@ FIND, EXISTS 액티비티
  - 출력 -> 셀값: 출력변수
  - 타겟열 -> 열이름: "수출액"
 ```
+
+## day10
+* [UIPath_Library](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Library)
+  - 설정 -> 라이브러리 추가 -> 모든 패키지 -> 설치
+* [UIPath_Snippet](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/Snippet)
+  
+* [UIPath_실습문제_인기지표조사](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/실습문제_인기지표조사)
+```
+- CreateFolder: 폴더 생성
+- CreateFile: 파일 생성
+- Move File: 파일 이동
+- Copy File: 파일 복사
+- Delete: 폴더/파일을 삭제
+
+- 기본적으로 폴더 구분은 "\"
+- 확장자명까지 같이 사용한다.
+```
