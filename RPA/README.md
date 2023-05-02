@@ -198,3 +198,33 @@ FIND, EXISTS 액티비티
  - smtp.naver.com
  -  SMTP 포트 : 587, 보안 연결(TLS) 필요
 ```
+
+```
+* 오케스트레이터 사용방법
+1. 오케스트레이터 연결
+  -> https://cloud.uipath.com -> DefaultTenent  클릭하여 접속
+
+2. 한국 시간대 맞추기
+ -> Tenant 클릭 -> Setting -> Timezone - 서울
+
+3. 오케스트레이터와 내PC 연결 
+ -> Machine -> add -> Cmd창에서 hostname 입력후 복사 Name에 입력 -> Production(Unattended)에 1 입력 -> Provision
+
+4. 권한 부여
+ -> Manage Access 메뉴 -> 본인 이름 오른쪽 점세개 -> Edit 선택 -> Roles - Allow to be Automation User선택 
+-> Next -> 두개 전부 선택 후 Next -> Allow unattended robots~ 선택 -> Use a sepecific ~ 선택 -> 
+Domain/Username - Cmd에 Whoami 입력후 복사 -> Password는 PC에 비밀번호가 있다면 적는다 -> Update
+
+5. 폴더 생성
+ -> Folders 메뉴에서 New Folder -> Name( ex)RPA 공부 ) 적고 Create -> 폴더 클릭(RPA공부) -> Machines 탭 선택후 새로 만든 머신 추가
+ 
+6. Uipath Assitant에 환경설정-> 환경설정-> Orchestrator 설정 -> 로그아웃 -> 연결유형 머신키 -> 머신키 복사(폴더 -> RPA공부 폴더클릭->Machines -> Properties창 Copy ) 
+-> 오케스트레이터 URL에서 "https://cloud.uipath.com/rpadqrkwfp/DefaultTenant/" 붙여넣기
+
+UiPath Studio: 게시 -> 게시 옵션 -> 오케스트라 테넌트 프로세스 피드
+오케스트라: RPA공부 -> Automations -> add  -> next -> next -> create
+
+트리거 생성
+ -> 홈페이지 -> Trigger -> Add -> 
+```
+
