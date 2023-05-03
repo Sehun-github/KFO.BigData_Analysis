@@ -185,7 +185,7 @@ FIND, EXISTS 액티비티
 ```
 
 ## day11 ~ day16
-
+* [UIPath_RPA 프로젝트](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA/UiPath/RPA%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8)
 ```
 이메일 송신
  - UI 작업을 하지 않고 백그라운드로 메일 송신
