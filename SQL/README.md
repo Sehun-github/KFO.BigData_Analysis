@@ -102,3 +102,33 @@
  - 방법1 : GROUP BY 그룹컬럼 WITH ROLLUP
  - 방법2 : Having IS NOT NULL
 ```
+
+* [SQL_sakila](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/SQL/File/SQL_sakila.sql)
+```
+* 샘플 데이터 준비
+ sakila import 방법
+ - Server -> Data Import -> Import From Self-Contained File -> Import Progress -> Start Import
+
+*데이터 다어그램으로 확인
+ - DataBase -> Reverse Engineer -> Next -> 확인할거 고르기
+```
+
+* [SQL_OpenData](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/SQL/File/SQL_OpenData.sql)
+```
+대용량 데이터 덤프시 My.ini
+ - 대용량 덤프시 패킷 크기가 중요
+ 
+ * csv 파일을 sql로 수정
+ - https://sqlitebrowser.org/dl/ 다운
+ - SQLite -> 테이블 생성하기 -> 아무거나(데이터베이스구조가 하나는 있어야함) -> 파일 -> import -> csv 가져오기(인코딩 기타- EUC-KR, 첫행에 필드명 포함) -> 파일 -> 내보내기 -> 데이터를 SQL로 내보내기 - 데이터만 내보내기 -> 저장
+ 
+* 저장한 SQL -> 노트패드 -> BEGINE TRANSCATION - START TRANSCATION -> 테이름 이름을 역쿼트(`bicycle_202012`) -> 컬럼이름 삭제(values앞)
+
+* my.ini 수정
+ - C:\ProgramData\MySQL\MySQL Server 8.0\my.ini를 메모장에서 관리자 모드로 열기
+   -> max_allowed_packet 크기를 200M 이상 저장 -> 작업관리자 -> 서비스 -> MySQL 8.0 -> 서비스 재시작
+
+* sql 가져오기
+ - Server 메뉴 -> data import -> import from Self-Containded File -> import progress -> Start import
+```
+
