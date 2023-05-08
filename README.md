@@ -17,4 +17,4 @@
 * <b>[RPA](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/RPA)</b> (2023/04/13 ~ 2023/05/04)
 ----------------------------------------------------
 
-* <b>[SQL언어](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/SQL)</b> (2023/03/14, 2023/05/08 ~ 2023/05/09)
+* <b>[SQL 언어](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/SQL)</b> (2023/03/14, 2023/05/08 ~ 2023/05/09)
