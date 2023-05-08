@@ -103,6 +103,8 @@
  - 방법2 : Having IS NOT NULL
 ```
 
+## day3
+
 * [SQL_sakila](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/SQL/File/SQL_sakila.sql)
 ```
 * 샘플 데이터 준비
