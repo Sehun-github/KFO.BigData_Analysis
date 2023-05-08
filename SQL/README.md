@@ -1,6 +1,8 @@
 # SQL 언어
 
 > #### MySQL Workbench 사용
+> #### 한줄 실행: Ctrl + Enter
+> #### 여러줄 실행: Ctrl + Shift + Enter
 
 ## day1
 * [SQL_시작](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/SQL/File/SQL_시작.sql)
