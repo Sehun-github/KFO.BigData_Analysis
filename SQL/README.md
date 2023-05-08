@@ -78,3 +78,27 @@
  - DATE_FORMAT(날짜,format) dt속성을 날짜형식 format으로 반환
 ```
 
+* [SQL_기초통계](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/SQL/File/SQL_기초통계.sql)
+```
+* 기초통계
+ - Format(data, 0) -> #,###
+ - Format(data, 1) -> #,###.#
+ - Format(data, 2) -> #,###.##
+
+ - substring_index(str, delim, count)
+ - ex) select substring_index('www.mysql.com', '.', 1); -- 'www'
+```
+* [SQL_순위,소계](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/SQL/File/SQL_순위,소계.sql)
+```
+* 순위
+ - RANK(속성): 공동 순위만큼 건너뜀 1,2,2,4
+ - DENSE_RANK(속성): 공동 순위를 뛰어넘지 않음 ex) 1,2,2,3
+ - ROW_NUMBER(속성): 공동 순위를 무시함 ex)1,2,3.4
+
+* PARTION BY사용
+ - 그루핑해서 순위를 매기고자 할때 사용
+
+* ROOLUP: 소계, 합계 집계
+ - 방법1 : GROUP BY 그룹컬럼 WITH ROLLUP
+ - 방법2 : Having IS NOT NULL
+```
