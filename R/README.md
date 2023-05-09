@@ -25,3 +25,5 @@
 * R 설치
  - http://www.r-project.org/ -> 왼쪽 상단 CRAN -> Korea 가장 위 다운 -> OS 별 설치 -> install R for the first time
 ```
+
+* [R_경로변경](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/경로변경.R)
