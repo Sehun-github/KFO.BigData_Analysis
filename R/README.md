@@ -27,3 +27,30 @@
 ```
 
 * [R_경로변경](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/경로변경.R)
+```
+* Working directory 설정 방법
+ - getwd()
+ - dir()
+
+* Working directory 수정방법
+ - setwd("디렉토리명") / RStuio를 껐다 키면 바뀜
+ - Tool -> Global Options -> Default Working directory 설정
+
+* 자동 줄바꿈
+ - Tool -> Global Options -> Code -> Soft-wrap R source files 클릭
+
+* 셀렉트 하이라이트
+ - Tool -> Global Options -> Code -> Display 탭 -> Highlight selected line
+
+* 폰트 및 배경 설정
+ - Tool -> Global Options -> Appearance
+
+* 인코딩 타입 변경
+ - Tool -> Project Options -> Code Editing -> Change
+
+* 단축키
+ - Ctrl + Shift + N: 새 스크립트 만들기
+ - Ctrl + Shift + C: 주석화
+ - Ctrl + Shift + Enter: 소스코드 실행
+ - Shift + Alt + K: 모든 단축키 확인
+```
