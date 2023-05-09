@@ -3,6 +3,7 @@
 > #### RStudio 사용
 
 ## day1
+* [R_FirstScript](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/File/FirstScript.R)
 ```
 * R이란
  - 전산통계학을 위한 프로그래밍 언어
