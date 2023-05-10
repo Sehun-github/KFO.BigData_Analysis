@@ -22,7 +22,8 @@
 
 * <b>[R 언어](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R)</b> (2023/05/10 ~ 2023/05/12)
 ----------------------------------------------------
-* <b>[프로젝트 - Tableau 사용_광양시 문화시설 제안서](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/광양시문화시설제안서.pptx)</b> 
-* <b>[프로젝트 - Tableau 사용_빈곤층 해결책](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/빈곤층을위한정책방향.pptx)</b> 
-* <b>[프로젝트 - Tableau 사용_광진구 주차문제 해결방안](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/광진구주차문제해결방안.pptx)</b> 
-* <b>[프로젝트 - UiPath를 통한 RPA 프로젝트](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/UiPath를통한RPA프로젝트.pptx)</b> 
+* <b>[Project - Tableau 사용_광양시 문화시설 제안서](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/광양시문화시설제안서.pptx)</b> 
+* <b>[Project - Tableau 사용_빈곤층 해결책](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/빈곤층을위한정책방향.pptx)</b> 
+* <b>[Project - Tableau 사용_광진구 주차문제 해결방안](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/광진구주차문제해결방안.pptx)</b> 
+* <b>[Project - UiPath를 통한 RPA 프로젝트](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/UiPath를통한RPA프로젝트.pptx)</b> 
+* ----------------------------------------------------
