@@ -80,4 +80,27 @@
   - 수치형
 ```
 
+* [R_자료구조](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/자료구조.R)
+```
+자료구조
+ 	     1차원		 2차원		     N차원
+단일형  벡터		 행렬	     	  배열
+다중형	리스트		데이터프레임	  - 
+
+* 벡터
+ - vector()로 사용 ex)vector("character", length = 5) 기본값 초기화
+ - c("데이터1","데이터2") 문자 > 숫자 > 논리 / 자동형변환
+
+* 행렬
+ - matrix()로 사용 ex)matrix(nrow = 2, ncol = 3)
+
+* 배열
+ - array()로 사용 ex)array(dim=c(2,2,3))
+
+* 리스트
+ - list()로 사용 ex)list(1,T,"hi") / 열별로 다른 데이터 타입 저장 가능
+
+* 데이터 프레임
+ - data.frame()로 사용 ex)data.frame(vector, vector, ...)
+```
 
