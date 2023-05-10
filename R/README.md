@@ -157,7 +157,7 @@ https://cran.r-project.org/web/packages/available_packages_by_name.html -> 패�
  - remove.packages("패키지이름")
 ```
 
-* [R_연산자](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/변수와함수.R)
+* [R_연산자](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/연산자.R)
 ```
 * 산술연산자
  - "^" 제곱 연산자
@@ -185,5 +185,15 @@ https://cran.r-project.org/web/packages/available_packages_by_name.html -> 패�
  - rep(data,n): data로 초기화되는 길이가 n인 벡터생성 ex)rep(1,5) #c(1,1,1,1,1)
 ```
 
+* [R_조건문](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/연산자.R)
+```
+* 조건문
+ - if문
+ - ifelse문 (삼항연산자) ex) ifelse(조건, "True", "False")
+ - switch(입력 값, 비교값1=실행문1, 비교값2=실행문2, … , 기본 실행문)
+   1) 비교값은 문자열 형식만 사용가능
+   2) 범주형 데이터 처리 해야 하는경우 효율적
+ - which(조건문) / 조건에 해당하는 입력 벡터 내부 값의 인덱스(위치) 출력
+```
 
 
