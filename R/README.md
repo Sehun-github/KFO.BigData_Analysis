@@ -83,9 +83,9 @@
 * [R_자료구조](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/자료구조.R)
 ```
 자료구조
- 	     1차원		 2차원		     N차원
-단일형  벡터		 행렬	     	  배열
-다중형	리스트		데이터프레임	  - 
+ 	1차원		2차원		N차원
+단일형  벡터		행렬		배열
+다중형  리스트		데이터프레임	  - 
 
 * 벡터
  - vector()로 사용 ex)vector("character", length = 5) 기본값 초기화
