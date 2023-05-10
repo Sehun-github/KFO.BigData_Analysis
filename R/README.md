@@ -213,4 +213,11 @@ https://cran.r-project.org/web/packages/available_packages_by_name.html -> 패�
 	#명령문 (무한반복이 기본)
 	}
 ```
+```
+* 사용자정의함수
+	함수명 <- function(매개변수1, 매개변수2=초기 값, ...) {
+	#실행문
+	return(리턴 값) #생략 가능
+	}
+```
 
