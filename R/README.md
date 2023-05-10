@@ -104,3 +104,32 @@
  - data.frame()로 사용 ex)data.frame(vector, vector, ...)
 ```
 
+* [R_변수 및 함수](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/변수와함수.R)
+```
+* 변수
+ - 선언 ex)a <- 10
+ - 초기화 ex)a <- NULL / NA와 다른 개념
+
+* 변수 작명 규칙
+ - 첫 글자에는 문자 또는 마침표(.) 만 사용가능
+ - 두번째 글자 부터는 숫자, 밑줄 사용가능
+ - 알파벳 대문자와 소문자는 별개의 문자 취급
+ - 변수명 중간에 빈 칸 넣을 수 없음
+ - 한국어 변수 사용가능
+
+* 함수
+ - 모든 객체 입출력 값으로 사용 가능
+
+* AS 함수
+  - 데이터 형식을 강제로 변환 시킴
+ 
+* seq 함수
+  - From 부터 by씩 증가하는 length개의 숫자로 이루어진 벡터 생성 ex)seq(length=5, from=3, by=2)
+
+* rnorm 함수
+  - 평균이 mean, 표준편차가 sd인 정규분포를 따르는 n개의 숫자로 이루어진 벡터 생성 ex)rnorm(n=4, mean =0, sd=1)
+
+* runif 함수
+  - [min, max] 범위 사이 n개의 난수로 이루어진 벡터 생성 ex) runif(n=4, min=1, max=100)
+```
+
