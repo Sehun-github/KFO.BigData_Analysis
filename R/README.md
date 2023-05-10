@@ -185,7 +185,7 @@ https://cran.r-project.org/web/packages/available_packages_by_name.html -> 패�
  - rep(data,n): data로 초기화되는 길이가 n인 벡터생성 ex)rep(1,5) #c(1,1,1,1,1)
 ```
 
-* [R_조건문](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/연산자.R)
+* [R_조건문](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/.R)
 ```
 * 조건문
  - if문
@@ -195,7 +195,7 @@ https://cran.r-project.org/web/packages/available_packages_by_name.html -> 패�
    2) 범주형 데이터 처리 해야 하는경우 효율적
  - which(조건문) / 조건에 해당하는 입력 벡터 내부 값의 인덱스(위치) 출력
 ```
-* [R_](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/연산자.R)
+* [R_반복문](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/반복문.R)
 ```
 * 반복문
 - for문
