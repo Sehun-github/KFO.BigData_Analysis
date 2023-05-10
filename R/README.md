@@ -55,7 +55,7 @@
  - Shift + Alt + K: 모든 단축키 확인
 ```
 
-* [R_데이터 타입](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/경로변경.R)
+* [R_데이터 타입](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/데이터타입.R)
 ```
 * 데이터 타입
  - class("데이터")
