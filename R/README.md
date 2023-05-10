@@ -309,4 +309,5 @@ lines(y, type="o", pch=19, col="green")
 * 화면 분할
  - par(mfrow = c(분할 화면 행 개수, 분할 화면 열 개수))
 ```
-
+* [R_실습_제주-김포비행기실적](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/실습_제주-김포비행기실적.R)
+* [R_실습_코로나예방접종현황](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/실습_코로나예방접종현황.R)
