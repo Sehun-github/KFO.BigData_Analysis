@@ -195,5 +195,22 @@ https://cran.r-project.org/web/packages/available_packages_by_name.html -> 패�
    2) 범주형 데이터 처리 해야 하는경우 효율적
  - which(조건문) / 조건에 해당하는 입력 벡터 내부 값의 인덱스(위치) 출력
 ```
+* [R_](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/연산자.R)
+```
+* 반복문
+- for문
+	for( 변수 in 데이터){
+	#(변수 사용한) 명령문
+	}
 
+- while문
+	while( 조건식){
+	#조건이 참인 경우 수행할 명령문
+	}
+
+- repeat문
+	repeat{
+	#명령문 (무한반복이 기본)
+	}
+```
 
