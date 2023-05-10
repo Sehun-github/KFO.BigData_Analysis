@@ -127,7 +127,7 @@
   - From 부터 by씩 증가하는 length개의 숫자로 이루어진 벡터 생성 ex)seq(length=5, from=3, by=2)
 
 * rnorm 함수
-  - 평균이 mean, 표준편차가 sd인 정규분포를 따르는 n개의 숫자로 이루어진 벡터 생성 ex)rnorm(n=4, mean =0, sd=1)
+  - 평균이 mean, 표준편차가 sd인 정규분포를 따르는 n개의 숫자로 이루어진 벡터 생성 ex)rnorm(n=4, mean=0, sd=1)
 
 * runif 함수
   - [min, max] 범위 사이 n개의 난수로 이루어진 벡터 생성 ex) runif(n=4, min=1, max=100)
