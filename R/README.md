@@ -264,3 +264,49 @@ https://cran.r-project.org/web/packages/available_packages_by_name.html -> 패�
  - install.packages("writexl") 필요
 ```
 * [R_데이터프레임](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/데이터프레임.R)
+* [R_시각화](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/시각화.R)
+```
+데이터 그리기
+* plot()함수
+ - 산점도, 그래프 그리기 함수
+ - plot(x,y, type="p", main=NULL, xlab="", ylab="", xlim=c(), ylim=c())
+ - x,y: 데이터의 x,y 축 값
+ - type: 그래프 타입 (p: 점, l: 선, b: 점&선 등)
+ - main: 그래프 제목
+ - xlab: x축 이름
+ - ylab: y축 이름
+ - xlim: x축 값 범위
+ - ylim: y축 값 범위
+ - 이 외 다양한 매개변수 존재
+
+* 다중 그래프 그리기
+ - plot() 함수 사용하여 1개 그래프 그린 후, lines() 함수 사용하여 추가 그래프 그림
+ - plot을 통해 그림을 그리고 lines를 통해 plot위에 추가로 그림을 덧칠하는 개념 
+ex)
+x = c(1,2,3,4,5,6)
+y = c(2,4,5.8,7,7.5,8)
+plot(x, type="o", pch=19, col="red", xlim=c(1,6), ylim=c(1,8))
+lines(y, type="o", pch=19, col="green")
+
+* 범례
+ - legend()
+
+* 파이차트
+ - pie(data, label="", init.angle=0, radius=1)
+ - label: 요소별 이름 등록
+ - init.angle: 기준선 각도
+ - radius: 원의 크기 조절
+
+* 히스토그램
+ - hist(data, breaks=NULL, frep=T)
+ - break: 범주 개수
+ - frep: 결과 출력 값 기준. T= 횟수, F= 비율(density)
+
+* 상자수염그림
+ - boxplot(data, boxwex=NULL)
+ - boxwex: 상자의 넓이 조정
+
+* 화면 분할
+ - par(mfrow = c(분할 화면 행 개수, 분할 화면 열 개수))
+```
+
