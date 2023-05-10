@@ -221,3 +221,46 @@ https://cran.r-project.org/web/packages/available_packages_by_name.html -> 패�
 	}
 ```
 
+* [R_데이터 가져오기,내보내기](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/데이터_가져오기,내보내기.R)
+```
+데이터 가져오기
+* 키보드 입력
+ scan(what = character())
+
+* 로컬파일
+ - .txt
+ - .csv
+ - .xsxl
+ - xml, json, html등
+
+* read.table
+ - 테이블(행렬) 형식 파일로부터 데이터 불러오는 함수 ex)read.table(파일명, header=TRUE, sep="", col.names=c(), na.string="")
+ - col.names: 열 변수명 임의 설정가능 / header가 True라면 굳이 할 필요없음
+ - na.string: 결측치(missing value)를 의미하는 문자가 어떤 것인지 지정
+
+* read.csv
+ - read.csv(파일명, header=TRUE, col.names=c(), na.string="")
+
+* read.excel
+ - read_excel(파일명, sheet=NULL, range=NULL, col_names=TRUE, col_types=NULL, na="")
+ - sheet: sheet가 여러 개인 경우, sheet명 지정 / 지정하지 않으면 첫번째 sheet 데이터 불러옴
+ - range: 데이터 불러올 범위 지정 가능
+ - col_names: read.table의 header와 기능 동일
+ - col_types: read.table의 col.names와 기능 동일
+ - na: read.table의 na.string와 기능 동일
+ - install.packages("readxl") 필요
+--------------------------------------
+데이터 내보내기
+* write.table
+ - write.table(데이터 프레임 변수, 저장할 파일 명, row.name=TRUE, quote=TRUE, sep="")
+ - row.name: 행 번호 붙힐지 말지 선택
+ - quote: character 형식 데이터에 쌍따옴표(“’) 붙힐지 말지 선택
+
+* write.csv
+ - write.csv(데이터 프레임 변수, 저장할 파일 명, row.name=TRUE, quote = TRUE)
+
+* write.xlsx
+ - write_xlsx(데이터 프레임 변수, path =저장할 파일 명)
+ - install.packages("writexl") 필요
+```
+
