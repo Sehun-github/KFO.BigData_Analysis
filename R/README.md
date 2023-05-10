@@ -263,4 +263,4 @@ https://cran.r-project.org/web/packages/available_packages_by_name.html -> 패�
  - write_xlsx(데이터 프레임 변수, path =저장할 파일 명)
  - install.packages("writexl") 필요
 ```
-
+* [R_데이터프레임](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/데이터프레임.R)
