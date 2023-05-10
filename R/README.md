@@ -185,7 +185,7 @@ https://cran.r-project.org/web/packages/available_packages_by_name.html -> 패�
  - rep(data,n): data로 초기화되는 길이가 n인 벡터생성 ex)rep(1,5) #c(1,1,1,1,1)
 ```
 
-* [R_조건문](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/.R)
+* [R_조건문](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/조건문.R)
 ```
 * 조건문
  - if문
