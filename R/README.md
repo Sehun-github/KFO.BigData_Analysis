@@ -132,4 +132,27 @@
 * runif 함수
   - [min, max] 범위 사이 n개의 난수로 이루어진 벡터 생성 ex) runif(n=4, min=1, max=100)
 ```
+* [R_패키지](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/패키지.R)
+```
+* 패키지 설치
+ - install.packages("패키지명")
 
+* 패키지 확인
+ - library()
+
+* 패키지 불러오기
+ - library("패키지명")
+ - 패키지이름::패키지함수( )
+
+* 패키지 문서 확인
+https://cran.r-project.org/web/packages/available_packages_by_name.html -> 패키지 클릭 -> Reference manual:에서 확인 가능
+
+* 패키지 정보 확인
+ - library(help="패키지명")
+
+* 패키지 업데이트
+ - update.packages("패키지이름")
+
+* 패키지 삭제
+ - remove.packages("패키지이름")
+```
