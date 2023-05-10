@@ -54,3 +54,30 @@
  - Ctrl + Shift + Enter: 소스코드 실행
  - Shift + Alt + K: 모든 단축키 확인
 ```
+
+* [R_데이터 타입](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/경로변경.R)
+```
+* 데이터 타입
+ - class("데이터")
+ - 수치형 타입 -> Numeric ex)class(0) -> Numeric
+ - 정수형 타입 -> Integer(정수 뒤에 L을 붙이면 된다) ex)class(0L) -> Integer
+ - 논리형 -> Logical ex)class(True)
+ - 문자형 -> Character ex)class("1")
+ - 복소수형 타입 -> Complex ex)class(3+5i)
+
+* 데이터 종류
+ 차원에 따른 분류
+  - 1차원
+  - 2차원
+  - N차원
+
+ 구성(타입)에 따른 분류
+  - 단일형
+  - 다중형
+ 
+ 값에 따른 분류
+  - 범주형
+  - 수치형
+```
+
+
