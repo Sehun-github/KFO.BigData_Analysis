@@ -156,3 +156,34 @@ https://cran.r-project.org/web/packages/available_packages_by_name.html -> 패�
 * 패키지 삭제
  - remove.packages("패키지이름")
 ```
+
+* [R_연산자](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/변수와함수.R)
+```
+* 산술연산자
+ - "^" 제곱 연산자
+ - "%%" 나머지 연산자
+ - "%/%" 몫 연산자 (나머지 버리는 나누기)
+
+* 비교연산자
+ - "a == b" a는 b와 같은가?
+ - "a != b" a는 b와 다른가?
+
+* 논리 연산자
+ - "&" 벡터화 된 논리곱(AND)
+ - "&&" 벡터화 되지 않은 논리곱 (첫번째 값만 비교)
+ - "|"  벡터화 된 논리합(OR) (| : Shift + \)
+ - "||" 벡터화 되지 않은 논리합 (첫번째 값만 비교)
+ - "!" 논리 부정(NOT)
+
+* Range함수
+ - 입력 벡터의 최소값 최대값 출력 ex)range(c(1, 2, 3, 4, 5)) #15
+
+* Paste
+ - 값들을 하나의 문자열로 합치는 함수 ex)paste('안녕', '하세', '요', sep=“”) #'안녕하세요'
+
+* Rep함수
+ - rep(data,n): data로 초기화되는 길이가 n인 벡터생성 ex)rep(1,5) #c(1,1,1,1,1)
+```
+
+
+
