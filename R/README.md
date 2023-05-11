@@ -377,3 +377,4 @@ lines(y, type="o", pch=19, col="green")
 * geom_point() or geom_line() or geom_bar() or geom_histogram() or geom_boxplot()함수
  - ‘+’ 연산자 사용하여 추가 layer 추가
 ```
+* [R_실습_미국강력범죄율](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/실습_미국강력범죄율.R)
