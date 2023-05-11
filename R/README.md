@@ -311,3 +311,50 @@ lines(y, type="o", pch=19, col="green")
 ```
 * [R_실습_제주-김포비행기실적](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/실습_제주-김포비행기실적.R)
 * [R_실습_코로나예방접종현황](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/실습_코로나예방접종현황.R)
+
+* [R_dplyr패키지](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/dplyr패키지.R)
+```
+* dplyr 패키지
+ - 데이터전처리시, 반복작업을줄여줌
+ - 처리속도빠름
+ - 파이프연산자제공
+
+* 파이프 연산자
+ - 형태: %>%
+ - 의미: 왼쪽 변수를 오른쪽 함수에 적용
+ - 가독성측면에서장점
+ - Ctrl + Shift + M
+
+* rename
+ - rename(data, 변경 후 컬럼명1=기존 컬럼명1, 변경 후 컬럼명2=기존 컬럼명2, … )
+
+* arrange
+ - 데이터 프레임에서 특정 컬럼을 값을 기준으로 데이터 정렬
+ - arrange(data, 컬럼 이름) #오름차순이 default
+ - arrange(data, desc(컬럼 이름)) # 내림차순
+
+* distinct
+ - 데이터 프레임에서 특정 컬럼의 중복 값 제거
+ - distinct(data, 컬럼 이름)
+
+* select
+ - 데이터 프레임에서 원하는 컬럼만 추출
+ - select(dataframe, 컬럼명1, 컬럼명2, …)
+
+* filter
+ - 데이터 프레임에서 조건에 충족되는 행만 추출
+ - filter(dataframe, 조건식)
+
+* mutate
+ - 기존 컬럼값을 사용하여 새로운 컬럼을 생성
+ - mutate(dataframe, 생성할 컬럼명1 = 수식1, …)
+
+* groupy_by
+ - 특정 컬럼 값이 같은 데이터들을 같은 집단으로 묶어줌
+ - group_by(exam, 컬럼 명)
+
+* summarize
+ - 그룹 단위 동일기능 수행 후, 새로운 데이터 프레임에 수행 결과 통합
+ - summarize(grouped_df, 컬럼 명1=계산 식1, …)
+```
+
