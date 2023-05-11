@@ -357,4 +357,4 @@ lines(y, type="o", pch=19, col="green")
  - 그룹 단위 동일기능 수행 후, 새로운 데이터 프레임에 수행 결과 통합
  - summarize(grouped_df, 컬럼 명1=계산 식1, …)
 ```
-
+* [R_실습_gapminder](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/실습_gapminder.R)
