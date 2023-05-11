@@ -103,7 +103,7 @@
 * 데이터 프레임
  - data.frame()로 사용 ex)data.frame(vector, vector, ...)
 ```
-
+## day2
 * [R_변수 및 함수](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/변수와함수.R)
 ```
 * 변수
@@ -358,3 +358,22 @@ lines(y, type="o", pch=19, col="green")
  - summarize(grouped_df, 컬럼 명1=계산 식1, …)
 ```
 * [R_실습_gapminder](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/실습_gapminder.R)
+* [R_ggplot2](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/ggplot2.R)
+```
+* ggplot2
+ - 데이터시각화패키지
+ - 우수한사용성
+ - 통계시각화기능제공
+
+* qplot()
+ - qplot(data='사용할 데이터 변수명', x='data에서 x축에 사용할 변수', y ='data에서 y축에 사용할 변수')
+ - aes 요소 추가 가능(색깔 변화)
+ - geom='boxplot' (그래프 모양 변화)
+
+* ggplot()
+ - ggplot은 문법 요소 층을 쌓을 시작 지점이 되는 함수
+ - ggplot(data='데이터 변수 명', mapping = aes(x='data에서 x축에 사용할 변수', y ='data에서 y축에 사용할 변수', ...))
+
+* geom_point() or geom_line() or geom_bar() or geom_histogram() or geom_boxplot()함수
+ - ‘+’ 연산자 사용하여 추가 layer 추가
+```
