@@ -395,3 +395,14 @@ lines(y, type="o", pch=19, col="green")
  - 모집단의표준편차를모를때, 표본의 표준편차를 사용해 검정하는 방법
  - 유의수준이주어졌을때, t 값이 t분포표 값보다 크다면 귀무가설 기각
 ```
+
+* [R_상관계수](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/상관계수.R)
+```
+* 상관분석
+ - 두 변수 간에 어떤 관계를 가지는지 분석하는 기법
+
+* 상관계수 종류
+ - 피어슨(Pearson) 상관계수
+ - 켄달(Kendall) 상관계수
+ - 스피어만(Spearman) 상관계수
+```
