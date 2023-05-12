@@ -406,3 +406,4 @@ lines(y, type="o", pch=19, col="green")
  - 켄달(Kendall) 상관계수
  - 스피어만(Spearman) 상관계수
 ```
+* [R_실습_와인품질](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/R/file/실습_와인품질.R)
