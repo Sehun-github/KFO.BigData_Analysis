@@ -1,5 +1,4 @@
-
-[실행영상X - UiPath를통한RPA프로젝트.pdf](https://github.com/Sehun-github/KFO.BigData_Analysis/files/11583711/UiPath.RPA.pdf)
+* [실행영상X - UiPath를통한RPA프로젝트.pdf](https://github.com/Sehun-github/KFO.BigData_Analysis/files/11583711/UiPath.RPA.pdf)
 
 ![슬라이드1](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/cc804358-e077-4997-ab44-ad1743555750)
 ![슬라이드2](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/db1a17e0-0e6b-4468-b642-38289796d30c)
@@ -24,4 +23,5 @@
 ![슬라이드21](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/d64bd87f-dd81-41ff-ba37-20bba5762f48)
 ![슬라이드22](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/9b02a778-e98b-418b-a1b1-60c7b2d9f2a0)
 ![슬라이드23](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/78f9ae52-f320-4d02-895e-142bf034971a)
+
 
