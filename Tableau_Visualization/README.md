@@ -73,18 +73,18 @@ Green Pills = 연속형
    =IMPORTFEED("https://news.google.co.kr/rss/search?q=임세훈","items",True,100)
 ```
 ## day6
-* [프로젝트1_광양시 문화시설 추가 제안서](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Tableau_Visualization/data/광양시문화시설제안서.pptx)
+* [프로젝트1_광양시 문화시설 추가 제안서](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/광양시문화시설제안서)
 * [Tableau_시도별 문화시설](https://public.tableau.com/app/profile/.67392977/viz/_16811163270750/2)
 * [Tableau_전라남도 문화시설](https://public.tableau.com/app/profile/.67392977/viz/_16811164052430/3_1)
 * [Tableau_성별 연령대별 문화시설 관심도](https://public.tableau.com/app/profile/.67392977/viz/_16811162717990/1_1)
 * [Tableau_광양시 인구예측](https://public.tableau.com/app/profile/.67392977/viz/_16811161520780/1)
 
 ## day7
-* [프로젝트2_빈곤층을 위한 정책방향](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Tableau_Visualization/data/빈곤층을위한정책방향.pptx)
+* [프로젝트2_빈곤층을 위한 정책방향](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/빈곤층해결책)
 * [Tableau_빈곤층을 위한 정책방향_01](https://public.tableau.com/app/profile/.67392977/viz/_01_16812271432620/1)
 * [Tableau_빈곤층을 위한 정책방향_02](https://public.tableau.com/app/profile/.67392977/viz/_02_16812272091250/5)
 
 ## day8
-* [프로젝트3_광진구 주차 해결방안](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Tableau_Visualization/data/광진구_주차_해결_방안.pptx)
+* [프로젝트3_광진구 주차 해결방안](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/광진구주차문제해결방안)
 * [Tableau_광진구 주차 해결방안_01](https://public.tableau.com/app/profile/.67392977/viz/_01_16813005416560/1)
 * [Tableau_광진구 주차 해결방안_02](https://public.tableau.com/app/profile/.67392977/viz/_02_16813005634120/1_1)
