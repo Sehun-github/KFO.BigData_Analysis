@@ -1,5 +1,5 @@
 
-* ### [광진구주차문제해결방안.pdf](https://github.com/Sehun-github/KFO.BigData_Analysis/files/11583816/default.pdf)
+* ### [광진구주차문제해결방안.pptx](https://github.com/Sehun-github/KFO.BigData_Analysis/files/11583723/default.pptx)
 ![슬라이드1](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/45a441e5-6f4f-4da5-a6c9-37a9ae863eab)
 ![슬라이드2](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/8cb8df09-379b-45fb-8f9c-bebf41c37334)
 ![슬라이드3](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/dae479a4-ad6f-4082-b5a4-b26316f462ff)
@@ -12,4 +12,3 @@
 ![슬라이드10](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/a135fd40-5d86-4b29-8a81-8d74e8d8ef5a)
 ![슬라이드11](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/fb18c3ca-524b-4cfe-8f10-d15c0c3c442b)
 ![슬라이드12](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/8a0e6e08-9980-4fe1-89b6-2d3bb0ea99b8)
-

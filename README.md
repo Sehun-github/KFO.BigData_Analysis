@@ -24,9 +24,9 @@
 ----------------------------------------------------
 ### 프로젝트
 
-* <b>[Project - Tableau 사용_광양시 문화시설 제안서](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/광양시문화시설제안서)</b> 
-* <b>[Project - Tableau 사용_빈곤층 해결책](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/빈곤층해결책)</b> 
-* <b>[Project - Tableau 사용_광진구 주차문제 해결방안](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/광진구주차문제해결방안)</b> 
+* <b>[Project - Tableau 사용_광양시 문화시설 제안서](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/광양시문화시설제안서.pptx)</b> 
+* <b>[Project - Tableau 사용_빈곤층 해결책](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/빈곤층을위한정책방향.pptx)</b> 
+* <b>[Project - Tableau 사용_광진구 주차문제 해결방안](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/광진구주차문제해결방안.pptx)</b> 
 * <b>[Project - UiPath를 통한 RPA 프로젝트](https://github.com/Sehun-github/KFO.BigData_Analysis/tree/main/Project/UiPath를통한RPA프로젝트)</b> 
 ----------------------------------------------------
 

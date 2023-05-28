@@ -1,5 +1,5 @@
 
-* ### [Tableau활용 - 빈곤층을위한정책방향.pdf](https://github.com/Sehun-github/KFO.BigData_Analysis/files/11583818/default.pdf)
+* ### [Tableau활용 - 빈곤층을위한정책방향.pptx](https://github.com/Sehun-github/KFO.BigData_Analysis/files/11583721/default.pptx)
 ![슬라이드1](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/9a0d72e3-e887-4d79-95a0-6c0641d39a25)
 ![슬라이드2](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/8e55de0e-60ed-4cd8-a44e-f4462c9b4bbb)
 ![슬라이드3](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/1372f1bd-368a-45d0-96d7-d420959a34da)
@@ -15,4 +15,3 @@
 ![슬라이드13](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/a3c415b3-3770-4f20-9104-dd49986f5366)
 ![슬라이드14](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/fd56be23-e1de-4d0e-ae7b-6d8472f22c1b)
 ![슬라이드15](https://github.com/Sehun-github/KFO.BigData_Analysis/assets/62082124/19054e46-744d-474b-8e3e-837a24240af3)
-
